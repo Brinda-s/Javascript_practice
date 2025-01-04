@@ -111,7 +111,26 @@ let text17 = "Please visit Microsoft!";
 let newText = text17.replace("Microsoft", "W3Schools")
 console.log(newText);
 
+function add7(num){
+     return num+7;
+}
 
+console.log(add7(3));
+
+function multiply(num1,num2){
+    return num1*num2;
+}
+console.log(multiply(5,2));
+
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+  }
+console.log(capitalize("index"));
+
+function lastletter(str){
+    return str.charAt(str.length-1);
+}
+console.log(lastletter("index"));
 
 
 
