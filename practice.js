@@ -60,3 +60,53 @@ console.log(typeof myNum);
 const myNum2 = 123;
 const myString2 = String(myNum2);
 console.log(typeof myString2);
+
+let text = "HELLO WORLD";
+let char = text.charAt(0);
+console.log(char);
+
+const names = "W3Schools";
+let letter = names[2];
+console.log(letter);
+
+let text1 = "Apple, Banana, Kiwi";
+let part = text1.slice(7, 13);
+console.log(part);
+let part1 = text1.slice(-12);
+console.log(part1);
+
+let str2 = "Apple, Banana, Kiwi";
+let part3 = str2.substring(7, 13);
+console.log(part3);
+
+let str4= "Apple, Banana, Kiwi";
+let part4 = str4.substr(7);
+console.log(part4);
+
+let text6 = "      Hello World!      ";
+let text7 = text6.trim();
+console.log(text7);
+
+let text8 = "     Hello World!     ";
+let text9 = text8.trimStart();
+console.log(text9);
+
+let text10 = "     Hello World!     ";
+let text11 = text10.trimEnd();
+console.log(text11);
+
+let text14 = "5";
+let padded = text14.padStart(4,"x");
+console.log(padded);
+
+let text15 = "5";
+let padded4 = text15.padEnd(4,"0");
+console.log(padded4);
+
+let text16 = "Hello world!";
+let result = text16.repeat(2);
+console.log(result);
+
+let text17 = "Please visit Microsoft!";
+let newText = text17.replace("Microsoft", "W3Schools")
+console.log(text17);
