@@ -109,4 +109,10 @@ console.log(result);
 
 let text17 = "Please visit Microsoft!";
 let newText = text17.replace("Microsoft", "W3Schools")
-console.log(text17);
+console.log(newText);
+
+
+
+
+
+
